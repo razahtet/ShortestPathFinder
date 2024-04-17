@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pathfinding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Supreme Pathfinding</h1>
+    <h3>Sponsored by <u><i>Find Your Path To Success</i></u></h3>
+    <div id="mapPanel">
+        <div id="box">
+            <canvas id="canvas" width="500" height="400"></canvas>
+        </div>
+        <p style="color: crimson">Click two points to connect them.</p>
+    </div>
+
+    <div id="controlPanel">
+        <div id="addCitySection" class="inputSection">
+            <div>
+                <strong>Add point/city:</strong>
+            </div>
+            <div>
+                <input id="city" type="text" placeholder="name of city/point" />
+              <blink><p id="addCityMessage">Click the box to add the point</p></blink>
+            </div>
+            <div>
+                <p id="chooseMapMessage">or choose a map (for cities):</p>
+                <button id="losAngeles">Los Angeles</button>
+                <button id="sacramento">Sacramento</button>
+            </div>
+        </div>
+
+        <div class="inputSection">
+            <div>
+                <strong>Find path:</strong>
+            </div>
+            <div>
+                <input id="city1" type="text" placeholder="starting point" />
+                <input id="city2" type="text" placeholder="destination point" />
+                <button id="findShortestPath">Find shortest path</button>
+            </div>
+        </div>
+
+        <div>
+            <input id="showAll" type="checkbox">
+            <label for="showAll">Show all paths</label>
+        </div>
+        <div id="paths"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

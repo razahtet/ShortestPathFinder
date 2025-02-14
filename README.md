@@ -1,3 +1,5 @@
+# PathFinding
+
 **Live Demo**
 https://supreme-pathfinding.glitch.me/
 

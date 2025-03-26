@@ -1,7 +1,7 @@
 # Shortest Path Finder
 
 **Live Demo**
-https://supreme-pathfinding.glitch.me/
+https://shortest-path-finder.glitch.me/
 
 **Source**
 Index.html: HTML code

@@ -1,4 +1,4 @@
-# PathFinding
+# Shortest Path Finder
 
 **Live Demo**
 https://supreme-pathfinding.glitch.me/

@@ -1,12 +1,9 @@
 # Shortest Path Finder
 
-**Live Demo**
-https://shortest-path-finder.glitch.me/
-
 **Source**
 Index.html: HTML code
 style.css: CSS code
-script.js: Javascript Code
+script.js: JavaScript code
 
 **About**
 - This project calculates the shortest path between two points created on the map that may have many points connected to each other.

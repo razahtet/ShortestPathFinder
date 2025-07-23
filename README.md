@@ -1,10 +1,5 @@
 # Shortest Path Finder
 
-**Source**
-Index.html: HTML code
-style.css: CSS code
-script.js: JavaScript code
-
 **About**
 - This project calculates the shortest path between two points created on the map that may have many points connected to each other.
 - To add a point/city, type in the name of the point/city in the text box, and click the map.

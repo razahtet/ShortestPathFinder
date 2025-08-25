@@ -1,11 +1,12 @@
 # Shortest Path Finder
+### Live Demo: https://shortestroutefinder.netlify.app/
 
 **About**
-- This project calculates the shortest path between two points created on the map that may have many points connected to each other.
-- To add a point/city, type in the name of the point/city in the text box, and click the map.
-- To see a sample city map with points connected, click the buttons Los Angeles and Sacramento
-- To see the shortest path between two points/cities, put the cities name into the text boxes below "Find path" and click "Find shortest path"
-- If the user wants to see all other paths also, it can be pressed by clicking "Show all Paths".
+- This project allows users to create and connect codes on a canvas and find the shortest path between two points.
+- The algorithms used to find the shortest path and all the possible paths include BFS and recursive DFS.
 
-**Algorithm**
-- The algorithm to find the shortest path here was using recursion and keeping track of all of the cities (nodes) visited.
+**Instructions**
+- To add a point/city, type in the name of the point/city in the text box, and click on the map to create it.
+- To see a sample city map with points connected, click the buttons Los Angeles and Sacramento.
+- To see the shortest path between two points/cities, put the cities' names into the text boxes below "Find path" and click "Find shortest path"
+- If the user wants to see all other paths also, it can be pressed by clicking "Show all Paths".
